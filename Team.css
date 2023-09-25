@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Roboto:wght@100;300;400;500;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+	margin: 0;
+	box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+.Lan {
+	color: #9887e496;
+    margin-top: -4px;
+    margin-left: 10px;
+	}
+header
+{
+	background-color: #c4769b17;
+  position: fixed;
+  top:0; left: -3px; right:0;
+  padding:1rem 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: var(--box-shadow);
+}
+header .logo
+{
+	background: linear-gradient(90deg,#6D99D4,#1B3D76); 
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	text-decoration: none;
+	text-transform: capitalize;
+	letter-spacing: 7px;
+	font-size: 2.5rem;
+	font-weight: bolder;
+}
+ header .logo i
+ {
+   color: #279232;
+ }
+header .navbar
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header .navbar  a
+{
+  list-style: none;
+  margin-left: 20px;
+}
+header .navbar a
+{
+  text-decoration: none;
+  padding: 10px 28px;
+  color: #e86aba;
+  border-radius: 20px;
+}
+header .navbar a:hover,
+header .navbar a.active
+{
+  background: #f1c0df;
+  color: #2b1055;
+}
+
+
+.language-options {
+	display: flex;
+	align-items: center;
+    text-align: center;
+    margin: 10px;
+    flex-wrap: nowrap;
+}
+
+.language-options a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333; 
+  padding: 5px 10px;
+  border: 1px solid #9887e496; 
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.language-options a:hover {
+  background-color: #333; 
+  color: #fff;
+}
+
+
+.video-container {
+    position: relative;
+		overflow: hidden;
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio (9 / 16 * 100) */
+}
+video{
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Team
+{
+	background: url(img/teck.png)no-repeat;
+	height: 100%; 
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.Team .conten
+{  max-width: 200rem;
+}
+.Team .conten h3
+{
+  font-size: 5.3rem;
+  text-transform: capitalize;
+  color: #6F5ACD;
+}
+.Team .conten p
+{
+  font-size: 1.5rem;
+  margin-bottom: 14px;
+  letter-spacing: 1.5px;
+  color: #2B1392;
+  padding:.5rem 0;
+  line-height: 1.5;
+	font-weight: bolder;
+}
+.Team .conten span
+{
+  font-size: 2.1rem;
+  color: #2B1392;
+  text-transform: capitalize;
+}
+.btn
+{
+  background-color: #e86aba;
+	color: white;
+	text-decoration: none;
+  font-size: 27px;
+  display: inline-block;
+  border-radius: .9rem;
+	border: 4px solid transparent;
+	font-weight: bolder;
+	padding:.8rem 9rem;
+	transition: .4s; 
+}
+
+.btn:hover
+{
+  background-color: #c765a382;
+  border: 2px solid #c765a382;
+  cursor: pointer;
+}
+.team
+{
+  color: #FF93DD;
+  background: #6F5ACD;
+}
+.sub-heading
+{
+    text-align: center;
+    color:var(--green);
+    font-size: 2rem;
+    padding-top: 1rem;
+}
+
+.heading
+{
+    text-align: center;
+    color:var(--black);
+    font-size: 3rem;
+    padding-top: 5rem;
+    padding-bottom: 6rem;
+    text-transform: capitalize;
+}
+main
+{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #2b13925e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  }
+	.main {
+	    width: 1043px;
+	    max-width: 1%;
+	    margin: 0 auto;
+	    display: flex;
+	    align-items: center;
+	    justify-content: space-around;
+	    flex-direction: row-reverse;
+		}
+		.boxes {
+    display: flex;
+    width: 972px;
+    margin-left: -1px;
+    flex-wrap: wrap;
+		margin-bottom: 49px;
+}
+.box {
+    flex: 1;
+    height: 261px;
+    min-width: 26%;
+    margin: 10px;
+    aspect-ratio: 1;
+    padding: 20px;
+    border-radius: 2.4rem;
+    background-color: #2b13925e;
+	}
+	.boxes  #b1 p, #b2 p, #b3 p, #b4 p,#b5 p,#b6 p, #b7 p {
+		color: #FF93DD;
+		font-weight: bold;
+		margin-top: 8px; 
+		margin-left: 6px;
+		font-size: 22px;
+	}
+	.boxes  #b1 p span, #b2 p span,#b3 p span,
+	#b4 p span,#b5 p span,#b6 p span,#b7 p span {
+		color: #E8E2FF;
+		font-weight: normal;
+	}
+	div#b7 {
+    margin-left: 331px;
+    margin-right: 331px;
+	}
+	 #img {
+    border-radius: 365px;
+    width: 78px;
+	}
+footer
+{
+	position: relative;
+	width: 100%;
+	height: 319px;
+	background: #5542a9;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1)
+{
+	font-size: 30px;
+	color: white;
+	margin-bottom: 88px;
+	font-weight: bold;
+}
+footer p:nth-child(2)
+{
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social
+{
+	display: flex;
+}
+.social a
+{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #e86aba;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+}
+.social a:hover
+{
+	transform: scale(1.3);
+	transition: .3s;
+}
+.end
+{
+	position: absolute;
+	color: #e86aba;
+	bottom: 35px;
+	font-size: 14px; 
+}
+
+@media screen and (max-width: 768px) {
+    .video-container {
+        padding-bottom: 75%
+}
+
+	header
+	{
+	  position: fixed;
+	  top:0; left: -3px; right:0;
+	  padding:1rem 3%;
+	  display: flex;
+	  align-items: center;
+	  justify-content: space-between;
+	  z-index: 1000;
+	  box-shadow: var(--box-shadow);
+	}
+
+header .logo {
+	font-size: 2rem;
+}
+
+header .navbar
+{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+header .navbar  a
+{
+	list-style: none;
+	margin-left: 20px;
+}
+header .navbar a
+{
+	text-decoration: none;
+	padding:  10px 28px;
+	color: #fff;
+	border-radius: 20px;
+}
+header .navbar a:hover,
+header .navbar a.active
+{
+	background: #fff;
+	color: #2b1055;
+}
+
+.Team{
+	padding: 1rem;
+}
+
+.Team .conten h3 {
+	font-size: 3.5rem;
+}
+
+.Team .conten p {
+	font-size: 1.2rem;
+	margin-bottom: 10px;
+}
+
+.Team .conten span {
+	font-size: 1.8rem;
+}
+
+.btn {
+	padding: 0.6rem 2rem;
+	font-size: 18px;
+}
+}
